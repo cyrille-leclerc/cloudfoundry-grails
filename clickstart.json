@@ -7,7 +7,7 @@
     "icon" : "https://d3ko533tu1ozfq.cloudfront.net/clickstart/hibernate_icon.png",
 
     "build-with-jenkins": {
-        "plugins" : ["git", "envinject", "grails", "cloudbees-deployer-plugin"]
+        "plugins" : ["git", "envinject", "grails", "cloudbees-deployer-plugin"],
         "template": {
             "type": "https://github.com/mqprichard/cloudfoundry-grails/blob/master/config.xml",
             "options": {
