@@ -5,7 +5,6 @@
     "description" : "PetClinic Grails sample: DEV@Cloud build to deploy to Cloud Foundry",
 
     "build-with-jenkins": {
-        "plugins" : ["git","envinject","grails"],
         "template": {
             "type": "https://github.com/mqprichard/cloudfoundry-grails/blob/master/config.xml",
             "options": {
