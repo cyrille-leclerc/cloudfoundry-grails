@@ -1,7 +1,10 @@
 <?xml version="1.0"?>
 <project>
   <actions/>
-  <description> The Cloud Foundry/Spring Source PetClinic Grails sample application (https://github.com/SpringSource/cloudfoundry-samples.git) <br/> Builds using Grails 2.0.4 and Jenkins Grails Plugin: deploys to petclinic-grails-${CLOUDBEES_ACCOUNT}.cloudfoundry.com </description>
+  <description> 
+Cloud Foundry PetClinic Grails sample application (https://github.com/SpringSource/cloudfoundry-samples.git) <br/> 
+Builds using Grails 2.0.4 and Jenkins Grails Plugin: deploys to petclinic-grails-${CLOUDBEES_ACCOUNT}.cloudfoundry.com 
+  </description>
   <logRotator>
     <daysToKeep>60</daysToKeep>
     <numToKeep>-1</numToKeep>
@@ -74,7 +77,12 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command> #Create CLOUDBEES_ACCOUNT.properties with account name for Cloud Foundry Deployment Hostname #This will be injected into the build and used by the CloudBees Deployer plugin to specify a globally-unique name echo -n CLOUDBEES_ACCOUNT= &gt; CLOUDBEES_ACCOUNT.properties echo `echo $JENKINS_URL | awk -F'.' '{print $1}' | sed 's/https:\/\///g'` &gt;&gt; CLOUDBEES_ACCOUNT.properties </command>
+      <command> 
+#Create CLOUDBEES_ACCOUNT.properties with account name for Cloud Foundry Deployment Hostname 
+#This will be injected into the build and used by the CloudBees Deployer plugin to specify a globally-unique name 
+echo -n CLOUDBEES_ACCOUNT= &gt; CLOUDBEES_ACCOUNT.properties 
+echo `echo $JENKINS_URL | awk -F'.' '{print $1}' | sed 's/https:\/\///g'` &gt;&gt; CLOUDBEES_ACCOUNT.properties 
+      </command>
     </hudson.tasks.Shell>
     <EnvInjectBuilder plugin="envinject@1.80">
       <info>
