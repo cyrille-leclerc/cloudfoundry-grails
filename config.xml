@@ -1,6 +1,8 @@
 <project>
 <actions/>
-<description/>
+<description>
+Cloud Foundry/Spring Source PetClinic Grails sample application (https://github.com/SpringSource/cloudfoundry-samples.git)
+</description>
 <logRotator>
 <daysToKeep>60</daysToKeep>
 <numToKeep>-1</numToKeep>
