@@ -6,7 +6,7 @@
 
     "build-with-jenkins": {
         "template": {
-            "type": "https://github.com/mqprichard/cloudfoundry-grails/blob/master/config.xml",
+            "type": "https://raw.github.com/mqprichard/cloudfoundry-grails/master/config.xml",
             "options": {
             }
         }
