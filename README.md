@@ -6,4 +6,4 @@ Source code for the example is available on [GitHub](https://github.com/SpringSo
 
 NOTE: Before running this clickstart, Grails 2.0.4 must be installed on your DEV@Cloud Jenkins: go to Manage Jenkins -> Configure System -> Grails and configure a Grails 2.0.4 installation ("Grails 2.0.4") from Mirrors, Install Automatically.
 
-<a href="https://grandcentral.cloudbees.com/?CB_clickstart=https://raw.github.com/mqprichard/cloudfoundry-grails/master/clickstart.json"><img src="https://d3ko533tu1ozfq.cloudfront.net/clickstart/deployInstantly.png"/></a>
+<a href="https://grandcentral.cloudbees.com/?CB_clickstart=https://raw.github.com/CloudBees-community/cloudfoundry-grails/master/clickstart.json"><img src="https://d3ko533tu1ozfq.cloudfront.net/clickstart/deployInstantly.png"/></a>
