@@ -22,7 +22,7 @@ Cloud Foundry/Spring Source PetClinic Grails sample application (https://github.
 <hudson.plugins.git.UserRemoteConfig>
 <name/>
 <refspec/>
-<url>https://github.com/SpringSource/cloudfoundry-samples.git</url>
+<url>${repositoryUrl}</url>
 </hudson.plugins.git.UserRemoteConfig>
 </userRemoteConfigs>
 <branches>
