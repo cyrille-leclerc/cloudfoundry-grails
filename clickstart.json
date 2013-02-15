@@ -1,6 +1,6 @@
 {
     "id": "cloudfoundry-grails",
-    "name": "Grails Deployment to Cloud Foundry",
+    "name": "Grails Example for Cloud Foundry Deployment",
     "source": "git://github.com/SpringSource/cloudfoundry-samples.git",
     "description" : "PetClinic Grails sample: DEV@Cloud build to deploy to Cloud Foundry",
 
