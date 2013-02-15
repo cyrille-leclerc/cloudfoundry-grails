@@ -82,7 +82,7 @@ echo `echo $JENKINS_URL | awk -F'.' '{print $1}' | sed 's/https:\/\///g'` >> CLO
 <projectBaseDir>petclinic-grails</projectBaseDir>
 <serverPort/>
 <properties/>
-<forceUpgrade>false</forceUpgrade>
+<forceUpgrade>true</forceUpgrade>
 <nonInteractive>true</nonInteractive>
 <useWrapper>false</useWrapper>
 </com.g2one.hudson.grails.GrailsBuilder>
