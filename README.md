@@ -1,11 +1,8 @@
 cloudfoundry-grails
 ===================
 
-Clickstart example of a Grails application deployed to Cloud Foundry using CloudBees DEV@Cloud Deployer plugin.
-
+Clickstart example of a Grails application that can be deployed to Cloud Foundry using the CloudBees DEV@Cloud Deployer plugin. The application uses mysql 5.1 services on Cloud Foundry.
 Source code for the example is available on [GitHub](https://github.com/SpringSource/cloudfoundry-samples.git).
-
-The application is deployed using Deployment Hostname &lt;app_name&gt;-&lt;CLOUDBEES_ACCOUNT&gt;.cloudfoundry.com, and uses mysql 5.1 Cloud Foundry services.
 
 NOTE: Before running this clickstart, Grails 2.0.4 must be installed on your DEV@Cloud Jenkins master: go to Manage Jenkins -> Configure System -> Grails and configure a Grails 2.0.4 installation ("Grails 2.0.4") from Mirrors, Install Automatically.
 
