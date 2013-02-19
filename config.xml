@@ -74,6 +74,43 @@ Cloud Foundry/Spring Source PetClinic Grails sample application (https://github.
 <useWrapper>false</useWrapper>
 </com.g2one.hudson.grails.GrailsBuilder>
 </builders>
-<publishers/>
+<publishers>
+<com.cloudbees.plugins.deployer.DeployPublisher plugin="cloudbees-deployer-plugin@4.1">
+<deployIfUnstable>false</deployIfUnstable>
+<hosts>
+<com.cloudbees.plugins.deployer.impl.cloudfoundry.HostImpl plugin="cloudfoundry-deploy-engine@1.1">
+<targets class="java.util.Collections$UnmodifiableRandomAccessList" resolves-to="java.util.Collections$UnmodifiableList">
+<c class="list">
+<com.cloudbees.plugins.deployer.impl.cloudfoundry.TargetImpl>
+<artifact class="com.cloudbees.plugins.deployer.sources.WildcardPathDeploySource" plugin="cloudbees-deployer-plugin@4.1">
+<filePattern>**/*.war</filePattern>
+</artifact>
+<url>
+petclinic-grails-${account}.cloudfoundry.com
+</url>
+<runtime>java</runtime>
+<name>petclinic-grails</name>
+<memory>512</memory>
+<instances>1</instances>
+<framework>spring</framework>
+<command/>
+<start>true</start>
+<environmentVariables/>
+<services>
+<com.cloudbees.plugins.deployer.impl.cloudfoundry.TargetImpl_-AppService>
+<name>mysql-petclinic-grails</name>
+<service>mysql</service>
+<version>5.1</version>
+</com.cloudbees.plugins.deployer.impl.cloudfoundry.TargetImpl_-AppService>
+</services>
+</com.cloudbees.plugins.deployer.impl.cloudfoundry.TargetImpl>
+</c>
+<list reference="../c"/>
+</targets>
+<cloud>https://api.cloudfoundry.com</cloud>
+</com.cloudbees.plugins.deployer.impl.cloudfoundry.HostImpl>
+</hosts>
+</com.cloudbees.plugins.deployer.DeployPublisher>
+</publishers>
 <buildWrappers/>
 </project>
