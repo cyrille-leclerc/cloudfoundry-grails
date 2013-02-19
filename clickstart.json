@@ -6,6 +6,7 @@
     "disabled" : "true",
 
     "build-with-jenkins": {
+        "plugins": ["grails"],
         "template": {
             "type": "https://raw.github.com/CloudBees-community/cloudfoundry-grails/master/config.xml",
             "options": {
