@@ -3,6 +3,7 @@
     "name": "Grails PetClinic (Cloud Foundry)",
     "source": "git://github.com/SpringSource/cloudfoundry-samples.git",
     "description" : "PetClinic Grails sample: DEV@Cloud build to deploy to Cloud Foundry",
+    "disabled" : "true",
 
     "build-with-jenkins": {
         "template": {
