@@ -61,11 +61,6 @@ Cloud Foundry/Spring Source PetClinic Grails sample application (https://github.
 <triggers class="vector"/>
 <concurrentBuild>false</concurrentBuild>
 <builders>
-<hudson.tasks.Shell>
-<command>
-echo ${account}
-</command>
-</hudson.tasks.Shell>
 <com.g2one.hudson.grails.GrailsBuilder plugin="grails@1.6.3">
 <targets>war</targets>
 <name>Grails 2.0.4</name>
