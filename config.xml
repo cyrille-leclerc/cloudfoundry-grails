@@ -85,9 +85,7 @@ Cloud Foundry/Spring Source PetClinic Grails sample application (https://github.
 <artifact class="com.cloudbees.plugins.deployer.sources.WildcardPathDeploySource" plugin="cloudbees-deployer-plugin@4.1">
 <filePattern>**/*.war</filePattern>
 </artifact>
-<url>
-petclinic-grails-${account}.cloudfoundry.com
-</url>
+<url>petclinic-grails-${account}.cloudfoundry.com</url>
 <runtime>java</runtime>
 <name>petclinic-grails</name>
 <memory>512</memory>
