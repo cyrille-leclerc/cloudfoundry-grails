@@ -63,13 +63,13 @@ Cloud Foundry/Spring Source PetClinic Grails sample application (https://github.
 <builders>
 <com.g2one.hudson.grails.GrailsBuilder plugin="grails@1.6.3">
 <targets>war</targets>
-<name>Grails 2.0.4</name>
+<name>Grails 2.2.0</name>
 <grailsWorkDir/>
 <projectWorkDir/>
 <projectBaseDir>petclinic-grails</projectBaseDir>
 <serverPort/>
 <properties/>
-<forceUpgrade>true</forceUpgrade>
+<forceUpgrade>false</forceUpgrade>
 <nonInteractive>true</nonInteractive>
 <useWrapper>false</useWrapper>
 </com.g2one.hudson.grails.GrailsBuilder>
