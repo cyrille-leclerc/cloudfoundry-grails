@@ -96,7 +96,7 @@ Cloud Foundry/Spring Source PetClinic Grails sample application (https://github.
 <environmentVariables/>
 <services>
 <com.cloudbees.plugins.deployer.impl.cloudfoundry.TargetImpl_-AppService>
-<name>mysql-petclinic-grails-cb-${account}</name>
+<name>mysql-petclinic-grails</name>
 <service>mysql</service>
 <version>5.1</version>
 </com.cloudbees.plugins.deployer.impl.cloudfoundry.TargetImpl_-AppService>
