@@ -86,7 +86,7 @@ Cloud Foundry/Spring Source PetClinic Grails sample application (https://github.
 <filePattern>**/*.war</filePattern>
 </artifact>
 <url>petclinic-grails-${account}.cloudfoundry.com</url>
-<runtime>java</runtime>
+<runtime>java7</runtime>
 <name>petclinic-grails</name>
 <memory>512</memory>
 <instances>1</instances>
