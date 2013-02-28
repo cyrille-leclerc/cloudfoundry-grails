@@ -90,7 +90,7 @@ Cloud Foundry/Spring Source PetClinic Grails sample application (https://github.
 <name>petclinic-grails</name>
 <memory>512</memory>
 <instances>1</instances>
-<framework>spring</framework>
+<framework>grails</framework>
 <command/>
 <start>true</start>
 <environmentVariables/>
